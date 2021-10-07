@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "build-mobile": "next build && next export && npx cap sync"
+  },
+  "dependencies": {
+    "@capacitor/android": "^3.2.4",
+    "@capacitor/core": "^3.2.4",
+    "@capacitor/ios": "^3.2.4",
+    "@reduxjs/toolkit": "^1.6.1",
+    "axios": "^0.21.4",
+    "daisyui": "^1.14.0",
+    "next": "^11.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.5",
+    "redux": "^4.1.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^3.2.4",
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.15"
+  }
+}

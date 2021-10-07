@@ -1,0 +1,12 @@
+@import "tailwind.css";
+@import "../fonts/fontawesome/css/font-awesome.min.css";
+
+/* Adjusting font-size for mobile and desktop screens */
+html {
+    font-size:14px
+}
+@media (min-width:420px) {
+    html {
+        font-size:16px
+    }
+}

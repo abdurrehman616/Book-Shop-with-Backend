@@ -1,0 +1,14 @@
+{
+  "name": "notification",
+  "version": "1.0.0",
+  "description": "OneSignal Notification Integration in Book Shop App",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "OneSignal"
+  ],
+  "author": "Abdurrehman",
+  "license": "ISC"
+}
